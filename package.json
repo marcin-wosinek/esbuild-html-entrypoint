@@ -1,0 +1,20 @@
+{
+  "name": "esbuild-html-entrypoint",
+  "version": "1.0.0",
+  "description": "Example repository for using html as entry point in esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/esbuild-html-entrypoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/esbuild-html-entrypoint/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/esbuild-html-entrypoint#readme"
+}

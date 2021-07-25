@@ -1,10 +1,15 @@
 #! node
 
-require("esbuild")
-  .build({
-    logLevel: "info",
-    entryPoints: ["src/index.js"],
-    bundle: true,
-    outfile: "dist/main.js",
-  })
-  .catch(() => process.exit(1));
+import esbuild from "esbuild";
+import htmlPlugin from "@chialab/esbuild-plugin-html";
+
+await esbuild.build({
+  entryPoints: ["index.html"],
+  plugins: [
+    htmlPlugin({
+      // esbuild: esbuild,
+      // scriptsTarget: 'es6',
+      // modulesTarget: 'es2020',
+    }),
+  ],
+});

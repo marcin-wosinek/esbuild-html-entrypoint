@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/marcin-wosinek/esbuild-html-entrypoint/issues"
   },
-  "homepage": "https://github.com/marcin-wosinek/esbuild-html-entrypoint#readme"
+  "homepage": "https://github.com/marcin-wosinek/esbuild-html-entrypoint#readme",
+  "devDependencies": {
+    "@chialab/esbuild-plugin-html": "^0.9.12",
+    "esbuild": "^0.12.15"
+  }
 }
